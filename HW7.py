@@ -151,6 +151,31 @@ for p in range(500):
 #fraction of accurate pixel prediction
 sum(acc)/(500*784)
 
+# find the 10 digits out of 500 images
+digit={}
+for i in range(500):
+    num=train_y[i]
+    if num not in digit.keys():
+        digit[num]=[i]
+    else:
+        digit[num].append(i)
+        
+        
+max_list=[]
+min_list=[]
+for num in range(10):
+    maxidx=digit[num][0]
+    maxacc=acc[digit[num][0]]
+    minidx=digit[num][0]
+    minacc=acc[digit[num][0]]
+    for j in digit[num]:
+        if acc[j]>maxacc:
+            maxidx=j
+        if acc[j]<minacc:
+            minidx=j
+    max_list.append(maxidx)
+    min_list.append(minidx)
+    
 
 #original
 for i in max_list:
