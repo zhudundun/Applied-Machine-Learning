@@ -30,6 +30,10 @@ Display the image obtained by replacing each pixel with the mean of its cluster 
 
 Construct a figure showing the weights linking each pixel to each cluster center.
 
+### HW7 Mean field inference for binary images
+The MNIST dataset consists of 60, 000 images of handwritten digits. Obtain the MNIST training set, and binarize the first 500 images by mapping any value below .5 to -1 and any value above to 1. For each image, create a noisy version by randomly flipping 2% of the bits.
+
+Now denoise each image using a Boltzmann machine model and mean field inference. 
 
 
 
