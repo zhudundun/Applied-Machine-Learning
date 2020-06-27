@@ -17,5 +17,11 @@ Obtain the iris dataset from the UC Irvine machine learning data repository. Inv
 The MNIST dataset is a dataset of 60,000 training and 10,000 test examples of handwritten digits. The dataset consists of 28 × 28 images. 
 Use hierarchical k-means to build a dictionary of image patches. Now use dictionary to find the closest center to each patch, and construct a histogram of patches for each test image. Train a classifier using this histogram of patches representation. Evaluate this classifier on the test data.
 
+### HW5 Gaussian mixture model
+Image segmentation is an important application of clustering.Model the pixel values as a mixture of normal distributions and using EM. 
+Display the image obtained by replacing each pixel with the mean of its cluster center. 
+Construct a figure showing the weights linking each pixel to each cluster center.
+
+
 
 
