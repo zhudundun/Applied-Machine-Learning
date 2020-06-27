@@ -39,3 +39,6 @@ Now denoise each image using a Boltzmann machine model and mean field inference.
 Build a network with given structure. Evaluate the effect of momentum, dropout and other tricks to get better performance.
 
 
+### HW9 Generate adversarial example 
+For the network of HW8, construct one adversarial example for each digit (0-9) in MNIST data. This adversarial example should have the property that (a) it is close to the original digit and (b) it is misclassified as the next digit. 
+
