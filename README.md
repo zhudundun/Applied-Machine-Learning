@@ -12,3 +12,10 @@ Write a program to train a support vector machine from scratch on this data usin
 
 ### HW3
 Obtain the iris dataset from the UC Irvine machine learning data repository. Investigate the use of principal components to smooth data.
+
+### HW4
+The MNIST dataset is a dataset of 60,000 training and 10,000 test examples of handwritten digits. The dataset consists of 28 × 28 images. 
+Use hierarchical k-means to build a dictionary of image patches. Now use dictionary to find the closest center to each patch, and construct a histogram of patches for each test image. Train a classifier using this histogram of patches representation. Evaluate this classifier on the test data.
+
+
+
