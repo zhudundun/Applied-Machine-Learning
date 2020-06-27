@@ -35,5 +35,7 @@ The MNIST dataset consists of 60, 000 images of handwritten digits. Obtain the M
 
 Now denoise each image using a Boltzmann machine model and mean field inference. 
 
+### HW8 Convolution neural network
+Build a network with given structure. Evaluate the effect of momentum, dropout and other tricks to get better performance.
 
 
